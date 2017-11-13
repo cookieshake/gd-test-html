@@ -1,0 +1,133 @@
+@media screen and (min-width:720px) {
+    #main {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    #main-character {
+        margin-top: 3em;
+    }
+
+    #menus {
+        float: left;
+        width: 65%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:719px) {
+    #main {
+       padding: 0 2em;
+    }
+
+    #menus {
+        min-height: 280px;
+    }
+}
+
+body {
+    margin: 0;
+    min-height: 500px;
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: 00CCFF;
+}
+
+#menus {
+    background-color: E6E6E6;
+}
+
+#main-header {
+    height: 10%;
+    padding: 1em;
+    text-align: center;
+}
+
+#main-character {
+    padding: 1em 2.5em;
+    max-height: 100%;
+}
+
+#main-button {
+    padding: 1em;
+    text-align: center;
+}
+
+#main-logo-image {
+    width: 45%;
+    height: auto;
+    padding-left: 15%;
+}
+
+#main-search-image {
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+#main-character-image {
+    width: 100%;
+    height: auto;
+}
+
+#search-hospital-button {
+    padding: 1em 1.5em;
+    background-color: 155ABC;
+}
+
+#search-hospital-button img {
+    height: 25px;
+    width: auto;
+    vertical-align: top;
+}
+
+#search-phar {
+    float: left;
+    height: 28%;
+    width: 47%;
+    margin: 3% 2% 0 2%;
+}
+
+#sit-hospital {
+    float: left;
+    height: 28%;
+    width: 47%;
+    margin: 3% 2% 0 0;
+}
+
+#hospital-event {
+    float: left;
+    width: 96%;
+    height: 28%;
+    margin: 2% 2% 0 2%;
+}
+
+#goodoc-cast {
+    float: left;
+    width: 96%;
+    height: 28%;
+    margin: 2% 2% 0 2%;
+}
+
+.button {
+    font-size: 20px;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.menu-button {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-button span {
+    margin-left: 1em;
+    float: left;
+}
+
