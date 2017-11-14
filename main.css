@@ -5,7 +5,8 @@
 
     .menu-button img {
         margin-right: 1em;
-        height: 52px
+        width: 52px;
+        height: 52px;
     }
 
     .menu-button span {
@@ -41,7 +42,8 @@
 
     .menu-button img {
         margin-right: 0.6em;
-        height: 48px
+        width: 48px;
+        height: 48px;
     }
 
     .menu-button span {
