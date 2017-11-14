@@ -60,6 +60,7 @@
 
     #menus {
         height: 300px;
+        padding-bottom: 2%;
     }
 }
 
@@ -187,7 +188,7 @@ body {
     float: left;
     width: 96%;
     height: 30%;
-    margin: 2% 2% 2% 2%;
+    margin: 2% 2% 0 2%;
 }
 
 #goodoc-cast-button {
