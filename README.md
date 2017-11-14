@@ -5,13 +5,13 @@
 ## 해상도 별 예시
 
 ### 320 X 568 (iPhone SE)
-![examples/320x568.png]()
+![320 곱하기 568](examples/320x568.png)
 
 ### 375 X 667 (iPhone 6s)
-![examples/375x667.png]()
+![375 곱하기 667](examples/375x667.png)
 
 ### 960 X 600 (Nexus 7)
-![examples/960x600.png]()
+![960 곱하기 600](examples/960x600.png)
 
 ### 1024 X 768 (iPad Air 2)
-![examples/1024x768.png]()
+![1024 곱하기 768](examples/1024x768.png)
