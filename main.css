@@ -1,8 +1,10 @@
+/* 반응형 적용 */
 @media screen and (min-width:720px) {
     .button {
         font-size: 20px;
     }
 
+    /* 메뉴 버튼 이미지를 폰트 크기에 맞춤 */
     .menu-button img {
         margin-right: 1em;
         width: 52px;
@@ -40,6 +42,7 @@
         font-size: 18px;
     }
 
+    /* 메뉴 버튼 이미지를 폰트 크기에 맞춤 */
     .menu-button img {
         margin-right: 0.6em;
         width: 48px;
@@ -69,7 +72,7 @@ body {
     min-height: 500px;
     height: 100%;
     width: 100%;
-    min-width: 320px;
+    min-width: 320px; /* 너무 작은 해상도에서 깨짐 방지 */
 }
 
 .button {
@@ -108,6 +111,8 @@ body {
     overflow: hidden;
 }
 
+/* 메인 div 부분 스타일 적용 */
+
 #main-header {
     height: 10%;
     padding: 1em;
@@ -140,6 +145,8 @@ body {
     width: 100%;
     height: auto;
 }
+
+/* 메뉴 div 부분 스타일 적용 */
 
 #search-hospital-button {
     padding: 1em 1.5em;

@@ -1,10 +1,11 @@
 var goodocURL = "https://www.goodoc.co.kr"
 
+// 페이지 로딩 시 바인딩
 $(document).ready(function () {
     $("#search-hospital-button").click(function() {
         location.href = goodocURL;
     });
-
+    
     $("#search-phar-button").click(function() {
         location.href = goodocURL + "/pharmacies";
     });
