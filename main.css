@@ -46,7 +46,6 @@
     }
 
     #menus {
-        min-height: 200px;
         height: 300px;
     }
 }
@@ -56,6 +55,7 @@ body {
     min-height: 500px;
     height: 100%;
     width: 100%;
+    min-width: 400px;
 }
 
 .button {
@@ -139,9 +139,9 @@ body {
 
 #search-phar {
     float: left;
-    height: 28%;
+    height: 30%;
     width: 47%;
-    margin: 3% 2% 0 2%;
+    margin: 2% 2% 0 2%;
 }
 
 #search-phar-button {
@@ -150,9 +150,9 @@ body {
 
 #sit-hospital {
     float: left;
-    height: 28%;
+    height: 30%;
     width: 47%;
-    margin: 3% 2% 0 0;
+    margin: 2% 2% 0 0;
 }
 
 #sit-hospital-button {
@@ -162,7 +162,7 @@ body {
 #hospital-event {
     float: left;
     width: 96%;
-    height: 28%;
+    height: 30%;
     margin: 2% 2% 0 2%;
 }
 
@@ -173,7 +173,7 @@ body {
 #goodoc-cast {
     float: left;
     width: 96%;
-    height: 28%;
+    height: 30%;
     margin: 2% 2% 2% 2%;
 }
 
