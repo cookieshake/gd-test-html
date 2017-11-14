@@ -4,7 +4,12 @@
     }
 
     .menu-button img {
+        margin-right: 1em;
         height: 52px
+    }
+
+    .menu-button span {
+        margin-left: 1em;
     }
 
     #search-hospital-button img {
@@ -26,6 +31,7 @@
         width: 65%;
         height: 100%;
     }
+
 }
 
 @media screen and (max-width:719px) {
@@ -34,7 +40,12 @@
     }
 
     .menu-button img {
+        margin-right: 0.6em;
         height: 48px
+    }
+
+    .menu-button span {
+        margin-left: 0.6em;
     }
 
     #search-hospital-button img {
@@ -55,7 +66,7 @@ body {
     min-height: 500px;
     height: 100%;
     width: 100%;
-    min-width: 400px;
+    min-width: 320px;
 }
 
 .button {
@@ -72,14 +83,14 @@ body {
 
 .menu-button span {
     text-align: left;
-    margin-left: 1em;
+    margin-left: 0.6em;
     float: left;
     display: table-cell;
     vertical-align: middle;
 }
 
 .menu-button img {
-    margin-right: 1em;
+    margin-right: 0.6em;
     float: right;
     display: table-cell;
     vertical-align: middle;
