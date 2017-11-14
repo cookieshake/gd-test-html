@@ -22,7 +22,8 @@
     }
 
     #menus {
-        min-height: 280px;
+        min-height: 200px;
+        height: 300px;
     }
 }
 
@@ -33,12 +34,31 @@ body {
     width: 100%;
 }
 
+.button {
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+}
+
+.menu-button {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-button span {
+    text-align: left;
+    margin-left: 1em;
+    float: left;
+}
+
 #main{
     background-color: 00CCFF;
 }
 
 #menus {
     background-color: E6E6E6;
+    overflow: hidden;
 }
 
 #main-header {
@@ -92,11 +112,19 @@ body {
     margin: 3% 2% 0 2%;
 }
 
+#search-phar-button {
+    background-color: 00EA97;
+}
+
 #sit-hospital {
     float: left;
     height: 28%;
     width: 47%;
     margin: 3% 2% 0 0;
+}
+
+#sit-hospital-button {
+    background-color: 4BB2CE;
 }
 
 #hospital-event {
@@ -106,28 +134,17 @@ body {
     margin: 2% 2% 0 2%;
 }
 
+#hospital-event-button {
+    background-color: FC8B68;
+}
+
 #goodoc-cast {
     float: left;
     width: 96%;
     height: 28%;
-    margin: 2% 2% 0 2%;
+    margin: 2% 2% 2% 2%;
 }
 
-.button {
-    font-size: 20px;
-    color: white;
-    border: 0;
-    border-radius: 4px;
-    background-color: black;
+#goodoc-cast-button {
+    background-color: AE8AB6;
 }
-
-.menu-button {
-    width: 100%;
-    height: 100%;
-}
-
-.menu-button span {
-    margin-left: 1em;
-    float: left;
-}
-
